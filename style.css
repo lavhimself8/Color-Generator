@@ -1,0 +1,48 @@
+/* 
+==================
+lavnesh dhakad
+================== */
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+}
+
+div {
+  height: 10vh;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 5;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  div {
+    width: 90vw; /* Adjust width for smaller screens */
+  }
+}
+
+button {
+  background-color: #eff4c4;
+  border-radius: 100px;
+
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
